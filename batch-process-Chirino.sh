@@ -6,6 +6,7 @@ for f in "$1"/*; do
     WORD_COUNT =  wc -w $FILE_NAME | cut -d' ' -f1
     echo "File name: $FILE_NAME"
     echo "File size: $SIZE"
+    echo "Word count: $WORD_COUNT"
   fi
 done
 
