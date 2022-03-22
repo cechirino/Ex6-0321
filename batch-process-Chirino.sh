@@ -6,3 +6,7 @@ for f in "$1"/*; do
     echo "$SIZE"
   fi
 done
+
+
+
+
